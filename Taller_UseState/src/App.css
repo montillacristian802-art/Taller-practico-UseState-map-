@@ -1,0 +1,214 @@
+/* Actividad 1 informacion de un libro */
+.libro {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+.libro h1 {
+    font-size: 24px;
+}
+
+.libro p {
+    margin: 10px 0;
+}
+
+
+
+
+/* Actividad 2 lista de ciudades */
+.ciudades {
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 10px;
+    margin-bottom: 150px
+}
+
+.ciudades h1 {
+    text-align: center;
+}
+
+.ciudades ul {
+    padding-left: 30px;
+}
+
+.ciudades li {
+    margin: 10px 0;
+}
+
+
+
+
+/* Actividad 3 tabla de canciones */
+.canciones {
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.canciones th, 
+.canciones td {
+    border: 1px solid black;
+    padding: 12px 20px;
+}
+
+.canciones th {
+    background-color: lightgray;
+}
+
+
+
+
+/* Actividad 4 css de las targetas de lista de animales */
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 150px;
+}
+
+.tarjeta {
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+
+/* Actividad 5 tabla de videojuegos */
+.videojuegos {
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.videojuegos th, 
+.videojuegos td {
+    border: 1px solid black;
+    padding: 12px 20px;
+}
+
+.videojuegos th {
+    background-color: lightgray;
+}
+
+
+
+/* Actividad 6 tabla de jugadores */
+.jugadores {
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.jugadores th,
+.jugadores td {
+    border: 1px solid black;
+    padding: 12px 20px;
+}
+
+.jugadores th {
+    background-color: lightgray;
+}
+
+
+
+/* Actividad 7 catálogo de películas */
+
+.peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 150px;
+}
+
+.pelicula {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.pelicula h2 {
+    font-size: 22px;
+}
+
+.pelicula p {
+    margin: 8px 0;
+}
+
+
+
+/* Actividad 8 menú de restaurante */
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 150px;
+}
+
+.plato {
+    background-color: lightyellow;
+    border: 1px solid black;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.plato h2 {
+    font-size: 22px;
+}
+
+.plato p {
+    margin: 8px 0;
+}
+
+
+
+
+/* Actividad final */
+.musica {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.musica h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.musica section {
+    margin-top: 30px;
+}
+
+.musica ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.musica li {
+    background-color: lightblue;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
